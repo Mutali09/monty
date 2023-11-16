@@ -28,7 +28,6 @@ int exec(char *content, stack_t **stack, unsigned int counter, FILE *file)
 		{"stack", custom_stack_function},
 		{"queue", custom_queue_function},
 		{NULL, NULL}
-	}
 	};
 
 	op = strtok(content, " \n\t");
